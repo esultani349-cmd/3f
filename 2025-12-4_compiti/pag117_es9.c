@@ -12,9 +12,9 @@ void temperatura() {
     media = (temp_1 + temp_2 + temp_3) / 3;
 
     if (media > limite) {
-        printf("La media delle temperature e' %.2f supera il limite di %.2f riscaldamento non si accendera\n", media, limite);
+        printf("La media delle temperature è %.2f supera il limite di %.2f riscaldamento non si accendera\n", media, limite);
     } else {
-        printf("La media delle temperature e' %.2f è inferiore del limite %.2f riscaldamento si accendera\n", media, limite);
+        printf("La media delle temperature è %.2f è inferiore del limite %.2f riscaldamento si accendera\n", media, limite);
     }
 
     return;
